@@ -1,0 +1,172 @@
+/*Glabel*/
+*{
+
+}
+
+body{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	line-height: 1.4;
+}
+
+ul{
+	/*清除樣式*/
+	list-style: none;
+}
+
+/*主內容最外層*/ 
+.wrapper{
+	width:1500px;
+	height:1050px;
+	background-image:url(images/backk10.jpg) ;
+	/*符合背景尺寸*/
+	background-size: cover;
+	/*元素定位-相對定位*/
+	position: relative;
+	/*置中*/
+	margin: 50px auto;
+}
+/*主選單*/
+.nav{
+	/*浮動靠右*/
+	float: right;
+	padding: 50px 130px 50px 0px;
+}
+
+.nav li{
+	/*浮動靠左*/
+	float: left;
+	/*外距*/
+	margin-left:80px;
+	font-size: 30px;
+}
+
+}
+
+.nav a{
+	/*顏色*/
+	color:red;
+	text-decoration: none;
+	font-family: Bookman, URW Bookman L, serif;
+	font-weight: bold;
+}
+
+.nav a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+/*主內容*/
+.container {
+    /* 浮動 */
+    float: right;
+    width: 500px;
+    clear: both;
+    color: #C21010;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.container h1{
+	margin-bottom:100px;
+	/*大小*/
+	font-size:100px;
+	/*字型*/
+	font-weight: bold;
+	/*字體*/
+	font-family: Bookman, URW Bookman L, serif;
+	color:#C21010;
+	/*動畫名稱*/
+	/*animation-name: color;*/
+	/*動畫時間*/
+	/*animation-duration: 6s;*/
+	/*動畫延遲時間*/
+	/*animation-delay: 1s;*/
+	/*動畫次數 無限*/
+	/*animation-iteration-count: infinite;*/
+}
+
+@keyframes color{
+	0%{
+		color: beige;
+	}
+	30%{
+		color: rebeccapurple;
+	}
+	50%{
+		color: lightcyan;
+	}
+	50%{
+		color: pink;
+	}
+	100%{
+		color: beige;
+	}
+}
+
+.container h2{
+	/*大小*/
+	font-size: 42px;
+	/*字體*/
+	font-family: Bookman, URW Bookman L, serif;
+	color: #C21010;
+	font-weight: bold;
+}
+
+.container br{
+	/*大小*/
+	font-size:30px;
+	/*字體*/
+	font-family:Comic Sans MS, Comic Sans, cursive;
+	color: #C21010;
+	margin-top:-75px;
+}
+
+.container p{
+	font-size:23px;
+	color:#C21010;
+	/*外距*/
+	margin-right:30px;
+	font-family:Bookman, URW Bookman L, serif;
+}
+
+.container a{
+	/*a原本是inline*/
+	display: block;
+	background-color:#E64848;
+	width:160px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	line-height:50px;
+	border-radius:18px;
+	/*透明度*/
+	opacity: 0.8;
+	font-size:22px;
+
+}
+.container a:hover{
+	background-color:#FA7070;
+	border-radius: 20px;
+	/*轉場*/
+	transition: .5s;
+	/*轉變-放大*/
+	transform:scale(1.2) ;
+	opacity: 1;
+}
+/*社群連結*/
+.social-media{
+	/*絕對定位*/
+	position: absolute;
+	bottom:20px ;
+	right: 100px;
+}
+
+.social-media li{
+	/*浮動*/
+	float: left;
+	/*外距*/
+	margin-left: 30px;
+	font-size: 100px;
+}
+.social-media a{
+
+}
